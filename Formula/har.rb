@@ -7,20 +7,20 @@ class Har < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/sio2boss/har/releases/download/v1.3.2/har-v1.3.2-apple-arm64.tar.gz"
-      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      sha256 "e5a65fb1098625d3d09db39276255ad0c1609efa9b9d2c2821248f0f95c6a3cb"
     else
       url "https://github.com/sio2boss/har/releases/download/v1.3.2/har-v1.3.2-apple-amd64.tar.gz"
-      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      sha256 "7bae0f22b1418370452d1b9977c4057fcd5a11102b1081817562507a758b2c6c"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/sio2boss/har/releases/download/v1.3.2/har-v1.3.2-linux-arm64.tar.gz"
-      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      sha256 "d0f6ca4931d220cffd8ad140373a02e9ce421677e693c392866528c4f3fe359a"
     else
       url "https://github.com/sio2boss/har/releases/download/v1.3.2/har-v1.3.2-linux-amd64.tar.gz"
-      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      sha256 "9c56677d5a3ff7b3fda0ce5c1e3c52f8b59880dff74b3debf6cdbcba12cd91c5"
     end
   end
 
