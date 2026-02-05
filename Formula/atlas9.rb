@@ -1,5 +1,5 @@
 class Atlas9 < Formula
-  desc "Download and install files from the web with automatic extraction and installation"
+  desc "Terminal user interface (TUI) for using atlas to manage your database"
   homepage "https://github.com/sio2boss/atlas9"
   version "0.9.0"
   license "MIT"
@@ -29,6 +29,6 @@ class Atlas9 < Formula
   end
 
   test do
-    assert_match version.to_s, shell_output("#{bin}/atlas9 --version")
+    assert_match version.to_s, shell_output("#{bin}/atlas9 --help")
   end
 end
