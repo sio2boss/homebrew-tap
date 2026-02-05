@@ -6,21 +6,21 @@ class Atlas9 < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/sio2boss/atlas9/releases/download/v0.9.0/atlas9_darwin_arm64"
-      sha256 "8b003eda9f869969ca6c8410e69bc921b6937ca9d87d2444c2b583fe7e33128f"
+      url "https://github.com/sio2boss/atlas9/releases/download/v0.9.0/atlas9_darwin_arm64.tar.gz"
+      sha256 "ed236c6c31181ba9ed9c95f78d8038eefe3ed09f84544d92e7c7fcec5fcdd73f"
     else
-      url "https://github.com/sio2boss/atlas9/releases/download/v0.9.0/atlas9_darwin_amd64"
-      sha256 "ff058e7a7de74a8ba08620ef2fe6bfeaf94646bf4c486262c7283f595c65681b"
+      url "https://github.com/sio2boss/atlas9/releases/download/v0.9.0/atlas9_darwin_amd64.tar.gz"
+      sha256 "5077372e0a6f8eb1a57ec2594e084604c705a84f587a1bc995c51384890ceab1"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/sio2boss/atlas9/releases/download/v0.9.0/atlas9_linux_arm64"
-      sha256 "8dbaed8cfc0d5b667154bcdeb99bcce5c4db5be45b4e1151d6ae910fcd612a85"
+      url "https://github.com/sio2boss/atlas9/releases/download/v0.9.0/atlas9_linux_arm64.tar.gz"
+      sha256 "91b15cfb4134501a54424076e688c574aeece5337e6cd9f6065ebf5e7ee860bb"
     else
-      url "https://github.com/sio2boss/atlas9/releases/download/v0.9.0/atlas9_linux_amd64"
-      sha256 "a04d10430aafef5ce85f09b222759a7c5f7d8aeb661aa52ed790d6b57bb2013e"
+      url "https://github.com/sio2boss/atlas9/releases/download/v0.9.0/atlas9_linux_amd64.tar.gz"
+      sha256 "03fd5b4e42687ee3713c579d72e59a56935e2c1abcb80e842ce5bd78915869bd"
     end
   end
 
